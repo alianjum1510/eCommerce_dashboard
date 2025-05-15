@@ -4,7 +4,7 @@ from database import Base
 from datetime import datetime, date
 
 
-# -------------------- Product Table --------------------
+# -------------------- Product Table ---------------------
 class Product(Base):
     __tablename__ = "products"
 
